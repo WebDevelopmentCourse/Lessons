@@ -1,0 +1,181 @@
+﻿body 
+{
+    direction:rtl;
+    background-color: rgba(124,122,47,0.5);
+}
+
+
+#container{
+    width:     960px;
+    margin:    auto;
+}
+
+#line{
+    height:             80px;
+    background-color:   #332101;
+    position:           absolute;
+    width:              100%;
+    z-index:            -1;
+}
+
+header{
+    color:          #7C7A2F;
+    font-size:      26pt;
+    text-align:     center;
+    margin-top:     20px;
+    margin-bottom:  20px;
+}
+
+header a{
+
+    font-size:                  10pt;
+    display:                    block;
+    height:                     31px;
+    position:                   absolute;
+    color:                      white;
+    background-image:           url('../Images/treehouse_Clip_Art1.png');
+    background-repeat:          no-repeat;
+    background-size:            80px 80px;
+    background-position:        24px 0;
+    text-decoration:            none;
+
+    margin-top:     -75px;
+    padding-right:  75px;
+    padding-top:    50px;
+}
+
+header a:hover{
+    text-shadow: 0 0 4px #F0D227;
+}
+
+#book-cover{
+    display:            block;
+    width:              202px;
+    height:             249px;
+    background-image:   url('../Images/bookCover.jpg');
+    margin:             40px auto 0 auto;
+    text-decoration:    none;
+}
+
+#book-cover #read-it    {
+    background-color:       #1F2800;
+    height:                 40px;
+    width:                  202px;
+    text-align:             center;
+    padding-top:            20px;
+    color:                  white;
+    position:               absolute;
+    
+    opacity:    0;
+
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+#book-cover:hover{
+    -webkit-box-shadow: 0 0 10px 10px #444;
+    box-shadow: 0 0 10px 10px #444;
+}
+
+#book-cover:hover div#read-it{
+    margin-top:94px;
+    opacity: 1;
+}
+
+
+
+nav{
+    width:          150px;
+    float:      right;
+    margin-top: 5px;
+}
+
+nav ul li{
+    margin-bottom: 10px;
+}
+nav ul li a{
+    display:                    block;
+    text-decoration:            none;
+    height:                     35px;
+    padding-right:              50px;
+    padding-top:                15px;
+    background-image:           url('../Images/leaf_yellow.png');
+    background-size:            50px;
+    background-repeat:          no-repeat;
+    background-position:           right top;
+    font-size:                  18pt;
+    color:                      #332101;
+
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+nav ul li.active a{
+    background-image:   url('../Images/leaf_green.png');
+    color:              #167300;
+}
+nav ul li a:hover{
+    background-image: url('../Images/leaf_green.png');
+    color:#167300;
+    text-decoration: underline;
+}
+
+section#story{
+    width:700px;
+    float: left;
+}
+
+section#story h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color:#1F2800;
+    font-size: 18pt;
+}
+
+.story-plot-section{
+    margin-bottom:              100px;
+    background-color:           white;
+    -webkit-box-shadow:             0 0 70px 20px #505800;
+    box-shadow:             0 0 70px 20px #505800;
+    padding:                10px 10px 10px 320px;
+    background-repeat:      no-repeat;
+    background-position:        0 0;
+}
+
+
+.story-plot-section p{
+    margin-bottom:      15px;
+    text-align:         justify;
+    color:              #472E01;
+    line-height: 25px;
+}
+
+
+#part1{
+    background-image:url('../Images/chapter1-image1.jpg');
+}
+
+
+#part2{
+    background-image:url('../Images/chapter1-image2.jpg');
+    background-position: -50px 0;
+}
+
+#part3{
+    background-image:url('../Images/chapter2-image1.jpg');
+}
+
+
+#part4{
+    background-image:url('../Images/chapter2-image2.jpg');
+}
+
+#part5{
+    background-image:url('../Images/chapter3-image1.jpg');
+}
+

@@ -91,6 +91,7 @@ nav{
     width:          150px;
     float:      right;
     margin-top: 5px;
+    position:fixed;
 }
 
 nav ul li{
